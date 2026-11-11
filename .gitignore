@@ -1,0 +1,7 @@
+*.o
+artemis
+artemis.exe
+test_fisica
+test_fisica.exe
+*.tmp
+*.log
