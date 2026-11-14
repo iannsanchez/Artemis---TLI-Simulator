@@ -1,0 +1,6 @@
+@echo off
+echo Compilando pruebas fisicas...
+gcc -std=c11 -Wall -Wextra -Wpedantic -O2 fisica.c tests_fisica.c -o test_fisica.exe -lm
+if errorlevel 1 exit /b 1
+echo Ejecutando pruebas...
+test_fisica.exe
